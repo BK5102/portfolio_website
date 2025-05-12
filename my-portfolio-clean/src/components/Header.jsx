@@ -6,9 +6,6 @@ function Header() {
     <header className="bg-dark-background py-4 md:py-6 fixed top-0 w-full z-10">
       <div className="container mx-auto px-4 flex items-center justify-between">
         <div className="text-xl font-bold text-primary-blue">
-          <Link to="/" className="hover:text-primary-blue transition duration-300">
-            Your Logo/Name
-          </Link>
         </div>
         <nav className="hidden md:flex space-x-6">
           <Link to="/about" className="hover:text-primary-blue transition duration-300">
