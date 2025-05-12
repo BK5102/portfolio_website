@@ -1,12 +1,15 @@
+import React from 'react';
+import Navbar from './components/NavBar';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
-export default function App() {
+function App() {
   return (
-    <div className="font-sans">
+    <div className="bg-dark-background text-white font-body">
+      <Navbar />
       <Header />
       <Hero />
       <About />
@@ -15,3 +18,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
