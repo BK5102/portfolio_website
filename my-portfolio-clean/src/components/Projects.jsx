@@ -4,8 +4,10 @@ const projects = [
   { title: 'Marvel Website - Class Final Project', description: 'Built with HTML and CSS', link: 'https://github.com/BK5102/ECS-HTMLFinalsproject' },
   { title: 'Organize Me - Personal Project', description: 'Built using Vue, Python, JS, HTML, Bootstrap, CSS, MySQL, SQLAlchemy, FastAPI, Flask, Postman', link: 'https://github.com/BK5102/OrganizeMe' },
   { title: 'HackSoda QuizQuest', description: 'Built with HTML, CSS, JS, Bootstrap ', link: '#' }, // No link available as of now
-  { title: 'Opportunity Hack - STEAM Superheroes Mentorship Management System', description: 'Java, DynamoDB', link: 'https://github.com/2024-Arizona-Opportunity-Hack/Hack-Overflow-STEAMSuperheroes-STEAMSuperHeroesMentorshipPairingandSchedulingSystem' },
-  { title: 'FSE 100 Master Project', description: 'HTML, CSS, Bootstrap, p5.js', link: 'https://github.com/BK5102/FSEMasterProject' },
+  { title: 'Opportunity Hack - STEAM Superheroes Mentorship Management System', description: 'Built using Java, DynamoDB', link: 'https://github.com/2024-Arizona-Opportunity-Hack/Hack-Overflow-STEAMSuperheroes-STEAMSuperHeroesMentorshipPairingandSchedulingSystem' },
+  { title: 'FSE 100 Master Project', description: 'Built with HTML, CSS, Bootstrap, p5.js', link: 'https://github.com/BK5102/FSEMasterProject' },
+  { title: 'Data Science Research Project - Fulton Undergraduate Research Initiative', description: 'Built using Python and Jupyter Notebooks', link: 'https://github.com/BK5102/FURI_Research-Project' },
+
 ];
 
 export default function Projects() {

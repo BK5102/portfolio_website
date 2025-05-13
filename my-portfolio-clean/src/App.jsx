@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './components/NavBar';
-import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -10,7 +9,6 @@ function App() {
   return (
     <div className="bg-dark-background text-white font-body">
       <Navbar />
-      <Header />
       <Hero />
       <About />
       <Projects />

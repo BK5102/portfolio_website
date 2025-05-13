@@ -15,10 +15,16 @@ export default function Contact() {
         Interested in working together? Let's talk!
       </p>
       <a
-        href="mailto:you@example.com"
-        className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700"
+        href="bkannan8@asu.edu"
+        className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 mr-4" // Added mr-4 for right margin
       >
         Email Me
+      </a>
+      <a
+        href="https://www.linkedin.com/in/bhavanakannan/"
+        className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 ml-4" // Added ml-4 for left margin
+      >
+        My LinkedIn
       </a>
     </motion.section>
   );
