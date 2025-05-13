@@ -15,7 +15,7 @@ export default function Contact() {
         Interested in working together? Let's talk!
       </p>
       <a
-        href="bkannan8@asu.edu"
+        href="mailto:bkannan8@asu.edu"
         className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 mr-4" // Added mr-4 for right margin
       >
         Email Me
