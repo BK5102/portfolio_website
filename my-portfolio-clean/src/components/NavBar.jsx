@@ -1,21 +1,19 @@
-import React from 'react';
+import { motion } from 'framer-motion';
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav className="bg-dark-background fixed top-0 w-full z-10">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-xl font-bold text-primary-blue">Bhavana Kannan</div>
-        
-        {/* Mobile Menu (you'll likely want to expand on this) */}
-        <div className="md:hidden">
-          <button className="text-white focus:outline-none">
-            {/* You can use an icon here for a hamburger menu */}
-            ☰
-          </button>
-        </div>
-      </div>
-    </nav>
+    <motion.nav
+      className="fixed top-0 w-full flex justify-between items-center px-8 py-4 bg-white dark:bg-gray-900 shadow-md z-50"
+      initial={{ y: -80 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="text-xl font-bold">MyPortfolio</div>
+      <ul className="flex gap-6">
+        <li><a href="#about" className="hover:underline">About</a></li>
+        <li><a href="#projects" className="hover:underline">Projects</a></li>
+        <li><a href="#contact" className="hover:underline">Contact</a></li>
+      </ul>
+    </motion.nav>
   );
 }
-
-export default Navbar;

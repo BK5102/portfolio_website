@@ -1,17 +1,19 @@
-import React from 'react';
+import { motion } from 'framer-motion';
 
-function About() {
+export default function About() {
   return (
-    <section id="about" className="bg-gray-900 py-20">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-white mb-8 text-center">About Me</h2>
-        <p className="text-lg text-gray-300">
-          This is a placeholder for your "About Me" section. You can talk about your background, skills, and experiences here. Feel free to add more paragraphs and details.
-        </p>
-        {/* Add more content here, like skills or a profile picture */}
-      </div>
-    </section>
+    <motion.section
+      id="about"
+      className="py-20 px-8 max-w-4xl mx-auto text-center"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="text-3xl font-bold mb-6">About Me</h2>
+      <p className="text-gray-700 dark:text-gray-300">
+        I'm passionate about building fast, beautiful, and accessible web apps using modern frameworks.
+      </p>
+    </motion.section>
   );
 }
-
-export default About;
