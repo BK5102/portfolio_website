@@ -1,8 +1,13 @@
 import { motion } from 'framer-motion';
 
 const projects = [
-  { title: 'Portfolio Website', description: 'Built with React and Tailwind CSS' },
-  { title: 'E-commerce App', description: 'Built using Firebase and React Router' },
+  { title: 'Marvel Website - Class Final Project', description: 'Built with HTML and CSS' },
+  { title: 'Organize Me - Personal Project', description: 'Built using Vue, Python, JS, HTML, Bootstrap, CSS, MySQL, SQLAlchemy, FastAPI, Flask, Postman' },
+  { title: 'HackSoda QuizQuest', description: 'Built with HTML, CSS, JS, Bootstrap ' },
+  { title: 'Opportunity Hack - STEAM Superheroes Mentorship Management System', description: 'Java, DynamoDB' },
+  { title: 'FSE 100 Master Project', description: 'HTML, CSS, Bootstrap, p5.js' },
+
+
 ];
 
 export default function Projects() {
