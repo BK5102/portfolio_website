@@ -4,14 +4,14 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="py-20 px-8 text-center"
+      className="py-20 px-8 text-center bg-white"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-      <p className="mb-4 text-gray-700 dark:text-gray-300">
+      <h2 className="text-3xl font-bold mb-6 text-black">Get in Touch!</h2>
+      <p className="mb-4 text-black">
         Interested in working together? Let's talk!
       </p>
       <a

@@ -9,8 +9,9 @@ export default function Hero() {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <h1 className="text-5xl font-bold mb-4">Hi, I'm Bhavana</h1>
-      <p className="text-lg max-w-xl">I'm a web developer who builds beautiful React apps.</p>
+
+      <h1 className="text-5xl font-bold mb-4">Hi, I'm Bhavana Kannan</h1>
+      <p className="text-lg max-w-xl">CS major & Data Science minor student at ASU.</p>
     </motion.section>
   );
 }
