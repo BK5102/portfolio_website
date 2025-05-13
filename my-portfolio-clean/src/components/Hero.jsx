@@ -11,7 +11,7 @@ export default function Hero() {
     >
 
       <h1 className="text-5xl font-bold mb-4">Hi, I'm Bhavana Kannan</h1>
-      <p className="text-lg max-w-xl">CS major & Data Science minor student at ASU.</p>
+      <p className="text-lg max-w-xl">CS major & Data Science minor student at Arizona State University.</p>
     </motion.section>
   );
 }

@@ -12,7 +12,7 @@ export default function About() {
     >
       <h2 className="text-3xl font-bold mb-6 text-black">About Me</h2>
       <p className="text-black">
-        I'm passionate about building fast, beautiful, and accessible web apps using modern frameworks.
+        I'm passionate about building software applications in the tech industry. Whether it be building a web application or learning a new programming language, I am always open to applying my skills to produce an end result. In the future, I hope to build software tools that help individuals in the medical and healthcare field.
       </p>
     </motion.section>
   );
